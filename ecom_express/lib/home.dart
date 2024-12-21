@@ -227,7 +227,8 @@ class _HomeState extends State<Home> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const SizedBox(height: 10),
-            Center(
+             Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 9.0),
               child: Icon(icon, size: 30),
             ),
             Padding(

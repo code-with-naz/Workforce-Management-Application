@@ -1,5 +1,5 @@
 //import 'package:ecom_express/attendance.dart';
-final url = 'http://192.168.43.38:3000/';
+final url = 'http://192.168.1.132:3000/';
 final registration = url + "registration";
 final login = url +  "login" ;
 final employee = url + "api/employee/add";

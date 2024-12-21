@@ -82,7 +82,7 @@ class _AttendanceState extends State<Attendance> {
 
     try {
       final response = await http.post(
-        Uri.parse('http://192.168.1.121:3000/api/markAttendance'), // Adjust with your backend API
+        Uri.parse('http://192.168.1.132/api/markAttendance'), // Adjust with your backend API
         headers: {
           'Content-Type': 'application/json; charset=UTF-8',
         },
