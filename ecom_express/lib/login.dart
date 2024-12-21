@@ -117,7 +117,7 @@ class _MyLoginState extends State<MyLogin> {
       appBar: AppBar(
         backgroundColor: Colors.pink,
         title: const Text(
-          'Welcome Back!!',
+          'Welcome !!',
           style: TextStyle(
             fontFamily: 'Times New Roman',
             fontSize: 16,

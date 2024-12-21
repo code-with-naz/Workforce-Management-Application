@@ -101,13 +101,30 @@ class _AddEmpState extends State<AddEmp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Add Employee'),
+        title: Text('Add Employee',
+        style:TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 18,
+        )
+        
+        ),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(10.0),
+        
         child: SingleChildScrollView(
           child: Column(
             children: [
+              Padding(padding: EdgeInsets.symmetric(horizontal: 7.0),
+              child: 
+              Text('Employee Details',
+              style:TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 18,
+        )),),
+              SizedBox(
+                height: 5,
+              ),
               TextField(
                 controller: _nameController,
                 decoration: _inputDecoration('Name'),
